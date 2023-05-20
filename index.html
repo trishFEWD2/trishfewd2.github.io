@@ -1,2 +1,126 @@
-# trishfewd2.github.io
-Portfolio website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+   <!-- google fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600&family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/main.css">
+  <title>Welcome to TrishDaugherty.com</title>
+</head>
+
+<body>
+
+<!-- navigation content -->
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="nav-branding"><img src="images/logo.png" alt="Trish Daugherty logoo"></a>
+      <ul class="nav-menu">
+        <li class="nav-item selected">
+          <a href="index.html" class="nav-link current">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- first section on page, into  -->
+  <main class="home">
+    <section class ="head">
+      <div class="container">
+        <div class="intro">
+          <div class="intro-content">
+            <h1>Trish Daugherty</h1>
+          <p>
+            Welcome to my portfolio. You can view some of my recent work here. I've added lots of skills in front end web development and motion graphics recently, so take a look around. Here's a preview of some graphic design, websites and animation.
+          </p>
+          <p>
+            I currently work as a freelancer and take on short and long-term projects. If you are looking for a new team member or adding staff, please consider me.
+          </p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- simple slider -->
+    <div class="wrap">
+      <section class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          &#8249;
+        </button>
+        
+        <button class="slide-arrow" id="slide-arrow-next">
+          &#8250;
+        </button>
+        
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"><img src="images/gekkco.jpg" alt="Website for Gekkco Energy, arenewable energy company"></li>
+          <li class="slide"><img src="images/moodboard.jpg" alt="Research and development for new website, Nervetools"></li>
+          <li class="slide"><img src="images/beneath.jpg" alt="Website for Beneath, a short horror film "></li>
+          <li class="slide"><img src="images/dogtails.jpg" alt="Wordpress website for Dogtails Design"></li>
+          <li class="slide"><img src="images/sharks.jpg" alt="Example of simple Bootstrap website - student work"></li>
+          <li class="slide"><img src="images/UX-UI-example.jpg" alt="Sitemap wireframes and comps for new Nervetools website"></li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- section for cards -->
+    <section class="featured">
+      <h2 class="animate-character"> Expertise In:</h2>
+      <!-- <h2>Expertise In: </h2> -->
+      <ul class="flex-container wrap">  
+
+        <li class="flex-item">
+          <h3><i class="fas fa-sharp fa-regular fa-icons"></i> Web Content</h3>
+          <p>
+            Web and social media content creation, including video, animation, written content creation, proofreading and editing. I'll take your idea from concept to reality.
+          </p>
+        </li>
+        <li class="flex-item">
+          <h3><i class="fas fa-sharp fa-solid fa-palette"></i> Graphic Design</h3>
+          <p>
+            Logo design and branding for a turnkey experience. Design of collateral material include brochures, flyers, business cards, environmental graphics, social media and email marketing.
+          </p>
+        </li> 
+        <li class="flex-item">
+          <h3><i class="fas fa-mobile"></i> Web Design & Development</h3>
+          <p>
+            Design development based on UX/UI principles. Mobile first responsive design to meet today's online experience needs with the latest techniques in HTML5, CSS, Javascript and WordpPress for a customized solution. 
+          </p>
+        </li> 
+      </ul>
+    </section>
+  </main>
+<!-- footer content -->
+  <footer>
+    <h2>Contact Information</h2>
+    <p>Are you ready to get started? Contact me for more information. </p>
+    <a class="contact-btn" href="contact.html">Contact me today.</a>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
