@@ -87,6 +87,7 @@ font-family: 'Poppins', sans-serif; */
   .nav-branding img {
     height: 90px;
     padding: 5px;
+    width: auto;
 }
 
   /* .nav-branding img {
